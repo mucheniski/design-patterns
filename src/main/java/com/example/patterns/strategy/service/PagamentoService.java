@@ -27,7 +27,7 @@ public class PagamentoService {
                 break;
             case PIX:
                 pagamentoStrategy = new Pix();
-                retornoPagamentoDTO.setTipoPagamento("Pagamento com Boleto");
+                retornoPagamentoDTO.setTipoPagamento("Pagamento com Pix");
                 break;
             default:
                 pagamentoStrategy = null;
